@@ -12,6 +12,8 @@
 
   <!-- Bootstrap -->
   <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/mycss/index.css" rel="stylesheet">
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=DarF2LCCGzn6T16zgy8ZPkvYYE5CT6fu"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,17 +24,271 @@
       使用默认的 cdn服务即可
       商业网站 上线以后 一定是互联网环境
    -->
-   
+
   <!--[if lt IE 9]>
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+<!-- nav begin -->
 
 <body>
-  <h1>你好，世界！</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <img src="./img/logo.png" class="logopic">
+      </div>
+      <div class="companyname">武汉启航鑫商务信息咨询有限公司</div>
+    </div>
+    <div class="banner">
+      <img src="./img/banner.png" class="banenrimg">
+
+    </div>
 
 
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- nav end -->
+  <!-- swaper beg -->
+
+  <!-- swiper end -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid mytabcontain">
+      <ul class="nav navbar-nav tabul">
+        <li class="tabli "><a href="javascript:void(0)">首页<span class="sr-only">(current)</span></a></li>
+        <li class="tabli canpin active"><a href="javascript:void(0);">公司概况</a></li>
+        <li class="tabli canpin tabbanner"><a href="javascript:void(0)">产品简介</a></li>
+        <li class="tabli canpin newsdetailtab"><a href="javascript:void(0)">新闻动态</a></li>
+        <li class="tabli canpin active li_productshow"><a href="javascript:void(0);">产品展示</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /.container-fluid -->
+  <div class="bigbox">
+    <div class="tabscontainer">
+      <div class="jumbotron tabscontainer_gsgk" style="height:533px">
+        <h2>&nbsp&nbsp公司概况</h2>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp启航鑫商务信息咨询有限公司，通过国家工商管理局以及相关部门审批后于2014年5月13日成立，注册资本达50000万元，坐落在武汉市汉阳区鹦鹉大道48号天下名企汇A座406，有着依山傍水的自然环境、优越的办公环境以及和睦友善的工作人员，是一家专注于互联网、移动互联网和电子商务行业的民营企业。
+          公司主要经营业务涉及多个领域，包括商务信息咨询；互联网、移动互联网以及物联网的研发和应用；通信技术、网络工程、电子产品的系统集成；房地产开发与销售；汽车批零兼售、电器设备以及日用百货；保险代理；酒店管理；企业营销策划和营养健康咨询武汉等
+          公司秉承着规范、专业、创新、共赢的经营理念和高效体贴、团结协作、敬业负责、求实进取的企业精神。始终贯彻以追求合作伙伴最大利益为目标，竭诚为合作伙伴提供最大程度的保障。 启航鑫响应国家政策组建大学生创业基地，广招优秀的大学毕业生，让你们不再为青春迷茫，以高薪致青春，做一次正确的选择，胜过一味的努力！长期招聘销售专员以及行政人员，有经验者，有驾照者优先考虑，可接纳优秀的应届毕业生，公司提供带薪岗前培训，享受五险一金、带薪年假等所有员工福利。加入我们共同去挑战所谓的“不可能”！
+        </p>
+      </div>
+    </div>
+    <div class="tabscontainer">
+      <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）项目 -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="row imgcardrow">
+                <div class="thumbnail imgcard">
+                  <img src="./img/swiper01.png" class="card_img">
+                  <div class="caption">
+                    <h3>车贷业务</h3>
+                    <p>汽车贷款是指贷款人向申请购买汽车的借款人发放的贷款，也叫汽车按揭 二手房业务
+                    </p>
+                  </div>
+                </div>
+                <div class="thumbnail imgcard">
+                  <img src="./img/swiper02.png" class="card_img">
+                  <div class="caption">
+                    <h3>二手房业务</h3>
+                    <p>通常讲二手房业务就是不动产交易和登记中涉及办理量最大、任务最多的要数存量商品房交易备案、税收缴纳及登记办证事宜。（配房图） 新房业务
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row imgcardrow">
+                <div class="thumbnail imgcard">
+                  <img src="./img/swiper03.png" class="card_img">
+                  <div class="caption">
+                    <h3>新房业务</h3>
+                    <p>不光满足用户对二手房、租赁的服务需要，新房业务也要全面发力。 电子信用卡业务
+                    </p>
+                  </div>
+                </div>
+                <div class="thumbnail imgcard">
+                  <img src="./img/swiper04.png" class="card_img">
+                  <div class="caption">
+                    <h3>电子信用卡业务</h3>
+                    <p>子现金交易不校验密码、不核对持卡人签名，凡使用电子现金进行的交易均视为持卡人本人所有，持卡人应承担因芯片卡保管不善（包括但不限于丢失或者被盗等）造成的风险损失。如有关交易却已发生，持卡人不得拒绝交易款项，除非工商银行存在法律、法规规定的过错。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+        </div>
+      </div>
+    </div>
+    <div class="tabscontainer">
+      <div class="carousel slide" id="myCarouseltwo">
+        <!-- 轮播（Carousel）项目 -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="row imgcardrow">
+                <div class="thumbnail imgcard newsone">
+                  <img src="./img/new1.png" class="card_img">
+                  <div class="caption">
+                    <p>2017年5月13日启航鑫集团董事长周强与某集团公司洽谈项目合作并取得圆满的结果！ 周强董事长拥有长远的眼光和独到的管理理念打造启航鑫集团不同于其他集团的平台高度。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row imgcardrow">
+                <div class="thumbnail imgcard newstwo">
+                  <img src="./img/new2.png" class="card_img ">
+                  <div class="caption">
+                    <p>2017年6月2号交付车活动完满结束，引进各种进口好车。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row imgcardrow">
+                <div class="thumbnail imgcard newsthree">
+                  <img src="./img/new5.png" class="card_img ">
+                  <div class="caption">
+                    <p>2017年8月28日启航鑫在武汉鹦鹉大道天下名企汇正式开张，有好车豪车在100多平方米展厅进行展示。这里有贴心的服务，优质的产品 以及专业的团队，希望为每一位顾客挑选到令自己满意的车。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control prev-slide" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+          <a class="right carousel-control next-slide" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="tabscontainer">
+      <div class="product_show">
+        <ul class="nav nav-tabs nav-justified">
+          <li role="presentation" class="active"><a href="javascript:;">奥迪</a></li>
+          <li role="presentation"><a href="javascript:;">奔驰</a></li>
+          <li role="presentation"><a href="javascript:;">东风</a></li>
+        </ul>
+        <div class="product_show_contain pro_audi_show">
+          <a href="javascript:;" class="thumbnail">
+                <img src="./img/audi01.jpg" alt="...">
+              </a>
+          <a href="javascript:;" class="thumbnail">
+                <img src="./img/audi02.jpg" alt="...">
+              </a>
+          <a href="javascript:;" class="thumbnail">
+                <img src="./img/audi03.jpg" alt="...">
+              </a>
+          <a href="javascript:;" class="thumbnail">
+                <img src="./img/audi04.jpg" alt="...">
+              </a>
+          <a href="javascript:;" class="thumbnail">
+                <img src="./img/audi05.jpg" alt="...">
+              </a>
+          <a href="javascript:;" class="thumbnail">
+                <img src="./img/audi07.jpg" alt="...">
+              </a>
+          <a href="javascript:;" class="thumbnail">
+                <img src="./img/audi08.jpg" alt="...">
+              </a>
+        </div>
+        <div class="product_show_contain">
+          <a href="javascript:;" class="thumbnail baomaimg">
+              <img src="./img/bz01.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail baomaimg">
+              <img src="./img/bz02.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail baomaimg">
+              <img src="./img/bz03.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail baomaimg">
+              <img src="./img/bz04.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail baomaimg">
+              <img src="./img/bz05.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail baomaimg">
+              <img src="./img/bz06.jpg" alt="...">
+            </a>
+        </div>
+        <div class="product_show_contain">
+          <a href="javascript:;" class="thumbnail dongfeng">
+              <img src="./img/df01.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail dongfeng">
+              <img src="./img/df02.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail dongfeng">
+              <img src="./img/df03.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail dongfeng">
+              <img src="./img/df04.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail dongfeng">
+              <img src="./img/df05.jpg" alt="...">
+            </a>
+          <a href="javascript:;" class="thumbnail dongfeng">
+              <img src="./img/df06.jpg" alt="...">
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <!-- 联系我们begin-->
+  <div class="conectus">
+    <div class="conectus_left">
+      <!-- <img src="./img/lxwm.jpg" class="lxwmimg"> -->
+      <div class="conectus_left_contain">
+        <p class="conectus_add">地址：武汉市汉阳区鹦鹉大道古琴台天下名企汇A座406室</p>
+        <p class="tel">电话：027-84646766</p>
+        <p class="conectus_mail">邮箱：1473620761@qq.com</p>
+      </div>
+
+    </div>
+    <div class="conectus_right">
+      <div id="normal_map"></div>
+
+    </div>
+  </div>
 </body>
 
 </html>
@@ -41,3 +297,65 @@
 <script src="lib/js/jquery-1.12.4.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="lib/js/bootstrap.min.js"></script>
+<script>
+  $(function () {
+    $(".canpin").click(function () {
+      console.log($(this).index())
+      $(".canpin").eq($(this).index() - 1).addClass("active").siblings().removeClass('active');
+      $(".tabscontainer").hide().eq($(this).index() - 1).show();
+    })
+    $(".tabbanner").click(function () {
+      $("#myCarousel").css("display", "block");
+    })
+    $("#myCarouseltwo").carousel('cycle');
+    $(".prev-slide").click(function(){
+            $("#myCarouseltwo").carousel('prev');
+        });
+        // 循环轮播到下一个项目
+        $(".next-slide").click(function(){
+            $("#myCarouseltwo").carousel('next');
+        });
+
+
+    //产品展示tab
+    $(".li_productshow").click(function () {
+      console.log($(".product_show_contain"));
+      $(".product_show_contain").hide();
+      $(".pro_audi_show").show();
+    })
+
+
+    $(".product_show li").click(function () {
+      console.log($(".product_show_contain").eq($(this).index()))
+      $(".product_show li").eq($(this).index()).addClass("active").siblings().removeClass('active');
+      $(".product_show_contain").hide().eq($(this).index()).show();
+    })
+    $(".newsdetailtab").click(function(){
+       $(".bigbox").css("height","500px")
+    })
+  });
+
+  // 地图展示
+  var mapOption = {
+    mapType: BMAP_NORMAL_MAP,
+    maxZoom: 18,
+    drawMargin: 0,
+    enableFulltimeSpotClick: true,
+    enableHighResolution: true
+  }
+  var map = new BMap.Map("normal_map", mapOption);
+  var testpoint = new BMap.Point(113.930102, 22.583066);
+  map.centerAndZoom(testpoint, 18);
+  var marker = new BMap.Marker(testpoint);
+  marker.enableDragging();
+  map.addOverlay(marker);
+  map.enableScrollWheelZoom(true);
+  map.addControl(new BMap.MapTypeControl()); //添加地图类型控件
+  marker.addEventListener('dragend', function (e) {
+    panorama.setPosition(e.point); //拖动marker后，全景图位置也随着改变
+    panorama.setPov({
+      heading: -40,
+      pitch: 6
+    });
+  });
+</script>
